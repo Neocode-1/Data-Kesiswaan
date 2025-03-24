@@ -39,3 +39,10 @@ kalo belum bisa:
 ```sh
 php artisan sail:install
 ```
+
+---
+
+## 4. Migrate lewat sail
+```sh
+.\vendor\bin\sail artisan migrate --force
+```
