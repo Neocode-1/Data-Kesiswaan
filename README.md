@@ -1,8 +1,8 @@
 ## Prasyarat
 
-Sebelum memulai, pastikan Anda telah menginstal:
+Beberapa hal yang harus dipastikan sebelum memulai:
 - **Docker** → [Download Docker](https://www.docker.com/get-started)
-
+- Hentikan dahulu webserver Apache2 dan server MySQL
 ---
 
 ## 1. Instal dependencies
