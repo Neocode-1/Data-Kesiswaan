@@ -5,8 +5,20 @@ Sebelum memulai, pastikan Anda telah menginstal:
 
 ---
 
+## 1. Instal dependencies
+```sh
+composer install
+```
+```sh
+npm install
+```
+
+---
+
 ## 1. Copy file .env.example ke .env
 Isi filenya minta via wa
+
+---
 
 ## 2. Generate key
 ```sh
@@ -16,6 +28,8 @@ Atau
 ```sh
 .\vendor\bin\sail artisan key:generete
 ```
+
+---
 
 ## 3. Sail up (pastikan docker sudah terinstall)
 ```sh
