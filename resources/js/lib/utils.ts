@@ -12,7 +12,6 @@ export function cn(...inputs: ClassValue[]) {
 export function flashMessage(params) {
     return params.props.flash_message;
 }
-
 export const deleteAction = (url, { closeModal, ...options } = {}) => {
     const defaultOption = {
         preserveScroll: true,
