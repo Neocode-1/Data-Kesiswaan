@@ -11,7 +11,10 @@ const alertVariants = cva(
         default: "bg-background text-foreground",
         destructive:
           "text-destructive-foreground [&>svg]:text-current *:data-[slot=alert-description]:text-destructive-foreground/80",
-      },
+        red: "text-white bg-gradient-to-r from-red-500 via-red-600 to-red-700 dark:border-destructive [&>svg]:text-white",
+        green: "text-white bg-gradient-to-r from-green-500 via-green-600 to-green-700 dark:border-destructive [&>svg]:text-white",
+        orange: "text-white bg-gradient-to-r from-orange-500 via-orange-600 to-orange-700 dark:border-destructive [&>svg]:text-white",
+        },
     },
     defaultVariants: {
       variant: "default",
